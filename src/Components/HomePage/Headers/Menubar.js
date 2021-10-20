@@ -37,7 +37,6 @@ const Menubar = () => {
                             <Link to="/login" onClick={LogOut}>{user.email?<span>Log uot</span>:<span>Login</span>}</Link>
                                <span className="logedSpan">{user?.email}</span>
                             </>
-
                         } 
                     </Nav>
                 </Navbar.Collapse>

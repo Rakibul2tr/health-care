@@ -57,8 +57,8 @@ const useFirebase=()=>{
         seterror("Give at list 6 diget.")
         return;
       }
-      else if(!/^(?=.*[A-Z])$/.test(password)){
-        seterror("Give an uppercase letter")
+      else if(!/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$/.test(password)){
+        seterror("Minimum six characters,letter,number ,special character")
         return;
       }
       createUserWithEmailAndPassword(auth,email,password)
@@ -78,7 +78,10 @@ const useFirebase=()=>{
         seterror("Give at list 6 diget.")
         return;
       }
-      
+      else if(!/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$/.test(password)){
+        seterror("Minimum six characters,letter,number ,special character")
+        return;
+      }
       signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
         const user = result.user;

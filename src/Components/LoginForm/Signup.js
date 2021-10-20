@@ -10,7 +10,8 @@ const Signup = () => {
 
     return (
         <div className="container mb-2">
-        <div className="w-50 mx-auto bg-info p-4 mt-3">
+         <div className="row">
+           <div className="col-md-6 offset-md-6 mx-auto bg-info p-4 mt-3 rounded">
             <Form onSubmit={createPassworsubmitHendel}>
                 <h2>Pleas Registe or Sign Up</h2>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -28,7 +29,7 @@ const Signup = () => {
                 {
                  error?<div onClick={errorhied} className="w-50 bg-white rounded">
                      <button type="button" class="btn-close" aria-label="Close"></button>
-                    <h4 className="p-2 text-danger">{error}</h4>
+                    <p className="p-2 text-danger">{error}</p>
                     </div>:
                     <Button variant="primary" type="submit">
                         Submit
@@ -39,12 +40,13 @@ const Signup = () => {
             <Link to="/login">Login to your site</Link>
             <br/>
             <br/>
-         <button onClick={googlesingin}>
-             <span className="w-25">
-                     <img className="googleicon" src="https://i.ibb.co/DK4JHtQ/google.png" alt="" />
-             </span>Google Sing up
-        </button>
+            <button onClick={googlesingin}>
+                <span className="w-25">
+                        <img className="googleicon" src="https://i.ibb.co/DK4JHtQ/google.png" alt="" />
+                </span>Google Sing up
+            </button>
         </div>
+      </div>
     </div>
     );
 };

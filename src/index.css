@@ -36,7 +36,12 @@ code {
   color: azure;
   background: rgb(194, 27, 27);
 }
-
+button.navbar-toggler.collapsed {
+  background: rgb(221, 231, 176);
+}
+button.navbar-toggler.collapsed span {
+  color: black !important;
+}
 /*====== carousel section =======*/
 .carouselcapton {
   top: 16%;
