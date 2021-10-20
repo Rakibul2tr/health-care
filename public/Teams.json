@@ -1,0 +1,42 @@
+
+
+{
+    "teams":[
+        {
+            "id":1,
+            "name":"Dr: Prodip Kumar",
+            "spashilis":"Dantal Cap",
+            "img":"https://i.ibb.co/2qKt369/doctor1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Dr: Rayhan Hawlader",
+            "spashilis":"Dantal Hoock",
+            "img":"https://i.ibb.co/jrqFZqY/doctor2.jpg"
+        },
+        {
+            "id":3,
+            "name":"Dr: Rakibul Islam",
+            "spashilis":"Dantal Bregh",
+            "img":"https://i.ibb.co/Z2fKLNF/doctor3.jpg"
+        },
+        {
+            "id":4,
+            "name":"Dr: Rina rani",
+            "spashilis":"Dantal Fuck",
+            "img":"https://i.ibb.co/tKc9k6v/doctor4.jpg"
+        },
+        {
+            "id":5,
+            "name":"Dr: Sakur beswas",
+            "spashilis":"Dantal Recheck",
+            "img":"https://i.ibb.co/L9kp378/doctor5.jpg"
+        },
+        {
+            "id":6,
+            "name":"Dr: Taslima Rakib",
+            "spashilis":"Dantal Drill",
+            "img":"https://i.ibb.co/gmHmFPN/dactor6.jpg"
+        }
+    ]
+}

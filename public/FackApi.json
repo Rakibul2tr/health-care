@@ -1,0 +1,68 @@
+
+{
+    "dantal":[
+        {
+            "id":1,
+            "name":"Dantal cap",
+            "des":"A dental crown is a tooth-shaped cap that is placed over a tooth covering the tooth to restore its shape and size, strength, and/or to improve its",
+            "img":"https://i.ibb.co/BBCvPM0/condom.png",
+            "D_img":"https://i.ibb.co/jD5mHML/cap.jpg"
+        },
+        {
+            "id":2,
+            "name":"Dantal Hoocks",
+            "des":"Dental hook point is suitable for treatment and removal of the teeth. The length of hook can be adjusted, which is suitable for most mouthpieces",
+            "img":"https://i.ibb.co/r3nQ2rG/dental-hook.png",
+            "D_img":"https://i.ibb.co/vwXhg64/hoock.jpg"
+        },
+        {
+            "id":3,
+            "name":"Dantal Haygene",
+            "des":"The clinical dental hygienist collaborates with the dentist in an effort to provide services to the patient that will guide the patient towards optimal oral .",
+            "img":"https://i.ibb.co/Pm9nTdL/dental-hygiene.png",
+            "D_img":"https://i.ibb.co/jD5mHML/cap.jpg"
+        },
+        {
+            "id":4,
+            "name":"Electric Tooth brush",
+            "des":"Electric toothbrushes are battery-powered brushes that make oscillating or sonic vibrating movements to remove plaque.",
+            "img":"https://i.ibb.co/XDg9Fpb/electric-toothbrush.png",
+            "D_img":"https://i.ibb.co/6trGVkG/electric-brash.jpg"
+        },
+        {
+            "id":5,
+            "name":"Dantal Scalpel",
+            "des":"The second stage of the surgery is the act itself. This is carefully planned with the established surgical protocol and following .",
+            "img":"https://i.ibb.co/jHwNVb4/scalpel.png",
+            "D_img":"https://i.ibb.co/JCChwxn/stock-photo.jpg"
+        },
+        {
+            "id":6,
+            "name":"Dantal Syringe",
+            "des":"The second stage of the surgery is the act itself. This is carefully planned with the established surgical protocol and following .",
+            "img":"https://i.ibb.co/8Nj9YDM/syringe.png",
+            "D_img":"https://i.ibb.co/HVgtp34/istockphoto.jpg"
+        },
+        {
+            "id":7,
+            "name":"Tooth Drill",
+            "des":"Electric toothbrushes are battery-powered brushes that make oscillating or sonic vibrating movements to remove plaque build-up, debris and ",
+            "img":"https://i.ibb.co/2FM5g2y/tooth-drill.png",
+            "D_img":"https://i.ibb.co/ZBw4jXh/drel.jpg"
+        },
+        {
+            "id":8,
+            "name":"Tooth Paste",
+            "des":"Electric toothbrushes are battery-powered brushes that make oscillating or sonic vibrating movements to remove plaque build-up, debris and ",
+            "img":"https://i.ibb.co/VMTN8Jg/tooth-paste.png",
+            "D_img":"https://i.ibb.co/yX3T2QH/past.jpg"
+        },
+        {
+            "id":9,
+            "name":"Dantal Haygene",
+            "des":"The clinical dental hygienist collaborates with the dentist in an effort to provide services to the patient that will guide the patient towards optimal oral .",
+            "img":"https://i.ibb.co/yq2h1JQ/tooth.png",
+            "D_img":"https://i.ibb.co/jD5mHML/cap.jpg"
+        }
+    ]
+}

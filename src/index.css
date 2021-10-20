@@ -1,3 +1,4 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,154 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.bodycolor{
+  background: rgba(223, 221, 213, 0.323);
+}
+/* ======header=======  */
+.headerbg{
+  background: cornsilk;
+}
+.logo{
+  width: 150px;
+}
+.navbar-nav a{
+  padding: 6px 8px;
+  text-decoration: none;
+  color:#444;
+  border-radius: 50px;
+  margin: 2px;
+  font-weight: 500;
+
+  
+}
+.navbar-nav a:hover{
+  color: azure;
+  background: rgb(194, 27, 27);
+}
+
+/*====== carousel section =======*/
+.carouselcapton {
+  top: 16%;
+  width: 600px;
+  left: 2% !important;
+  /* background: #444; */
+  /* opacity: 0.4; */
+  height: 300px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.image{
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.card {
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 250px;
+}
+/*====== service section ==========*/
+.serviceimag {
+  width: 180px;
+  border: 3px solid seagreen;
+
+  padding: 15px;
+  border-radius: 40px;
+}
+.serviceimag:hover{
+background: rgb(97 241 188 / 60%);
+cursor: pointer;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1px !important;
+  margin-left: 10px !important;
+}
+.card-body a {
+  text-decoration: none;
+  padding: 3px 5px;
+  background: green;
+  color: white;
+  border-radius: 15px;
+}
+
+/*====== about section ==========*/
+
+.alice-carousel__wrapper ul li img{
+  width: 100%;
+  height: 400px;
+}
+.alice-carousel__prev-btn-wrapper,.alice-carousel__next-btn {
+  display: none;
+}
+/*===== footer =======*/
+.footerbg{
+  background: cornsilk;
+}
+.bgfooterbottom{
+  background: rgb(228, 216, 167);
+}
+.bgfooterbottom p {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.menulink {
+  align-items: center;
+}
+.menulink a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  border-bottom: 1px solid #ccc;
+  width: 200px;
+}
+.socialicon img{
+width: 40px;
+padding: 5px;
+margin-left: 10px;
+
+}
+
+/* login form */
+.logedSpan {
+  font-size: 13px;
+  background: wheat;
+  height: 20px;
+  padding: 5px;
+  line-height: 5px;
+  border-radius: 5px;
+}
+img.googleicon {
+  width: 20px;
+}
+
+/* not found page */
+.fourOffour {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+.fourOffour span {
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+.fourOffour span:nth-child(1){
+  color:rgb(233, 226, 17);
+}
+.fourOffour span:nth-child(2){
+  color:rgb(233, 17, 46);
+}
+.fourOffour span:nth-child(3){
+  color:rgb(9, 226, 16);
 }
