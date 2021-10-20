@@ -15,8 +15,6 @@ const Login = () => {
         .then(result=>{
             histry.push(location.state?.from || '/home')
         })
-
-       
     };
     
     return (

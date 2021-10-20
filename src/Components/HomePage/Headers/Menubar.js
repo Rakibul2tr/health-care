@@ -34,7 +34,7 @@ const Menubar = () => {
                                 <img width="30px" className="rounded-circle" src={user?.photoURL} alt="" />
                             </div>
                             :<>
-                            <Link to="/login" onClick={LogOut}>Login</Link>
+                            <Link to="/login" onClick={LogOut}>{user.email?<span>Log uot</span>:<span>Login</span>}</Link>
                                <span className="logedSpan">{user?.email}</span>
                             </>
 

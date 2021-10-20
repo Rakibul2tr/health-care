@@ -9,14 +9,16 @@ const useFirebase=()=>{
     const [email,setemail]=useState('');
     const [password,setpassword]=useState('');
     const [error,seterror]=useState('');
-
+    const [isLoding,setIsloding]=useState(true);
     const googleprovider = new GoogleAuthProvider();
     const auth = getAuth();
     const [user,setuser]=useState({})
 
     const googlesingin=()=>{
-     return signInWithPopup(auth, googleprovider);
+      setIsloding(true);
+     return signInWithPopup(auth, googleprovider)
       
+     .finally(()=>setIsloding(false));
         
     }
     useEffect(()=>{
@@ -24,14 +26,18 @@ const useFirebase=()=>{
             if (user) {
               setuser(user)
             } 
+            setIsloding(false);
           });
     },[])
 
 
     const LogOut=()=>{
-        signOut(auth).then(() => {
+      setIsloding(true);
+        signOut(auth)
+        .then(() => {
             setuser({})
           })
+        .finally(()=>setIsloding(false));
     }
 
     // =======createUserWithEmailAndPassword========
@@ -68,18 +74,11 @@ const useFirebase=()=>{
     }
     const LoginPassworsubmitHendel=(e)=>{
       e.preventDefault();
-      if(/\S+@\S+\.\S+/.test(email)){
-        seterror("Give at @ symbole");
-        return;
-      }
       if(password.length<6){
         seterror("Give at list 6 diget.")
         return;
       }
-      if(/^(?=.*[A-Z])$/.test(password)){
-        seterror("Give an uppercase letter")
-        return;
-      }
+      
       signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
         const user = result.user;
@@ -96,6 +95,7 @@ const useFirebase=()=>{
              error,
              LogOut,
             googlesingin,
+            isLoding,
             emailhendal,
             passwordhendal,
             createPassworsubmitHendel,
