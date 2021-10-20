@@ -6,7 +6,7 @@ import UseContext from '../../ContextApi/UseContex';
 
 const Signup = () => {
     // const {googlesingin}=useFirebase();
-    const {error,googlesingin,emailhendal,passwordhendal,createPassworsubmitHendel}=UseContext();
+    const {error,googlesingin,emailhendal,passwordhendal,createPassworsubmitHendel,errorhied}=UseContext();
 
     return (
         <div className="container mb-2">
@@ -26,21 +26,24 @@ const Signup = () => {
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
                 {
-                 error?<div className="w-50 bg-white rounded">
+                 error?<div onClick={errorhied} className="w-50 bg-white rounded">
+                     <button type="button" class="btn-close" aria-label="Close"></button>
                     <h4 className="p-2 text-danger">{error}</h4>
                     </div>:
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
+                    <Button variant="primary" type="submit">
+                        Submit
+                    </Button>
                     }
+                <input type="reset" value="Reset" className="btn btn-primary ms-2"></input>
             </Form><br/>
             <Link to="/login">Login to your site</Link>
-         <br/>
-         <br/>
+            <br/>
+            <br/>
          <button onClick={googlesingin}>
              <span className="w-25">
                      <img className="googleicon" src="https://i.ibb.co/DK4JHtQ/google.png" alt="" />
-             </span>Google Sing up</button>
+             </span>Google Sing up
+        </button>
         </div>
     </div>
     );

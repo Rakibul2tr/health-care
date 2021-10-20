@@ -57,7 +57,7 @@ const useFirebase=()=>{
         seterror("Give at list 6 diget.")
         return;
       }
-      if(/^(?=.*[A-Z])$/.test(password)){
+      else if(!/^(?=.*[A-Z])$/.test(password)){
         seterror("Give an uppercase letter")
         return;
       }
@@ -90,6 +90,10 @@ const useFirebase=()=>{
     };
 
 
+    const errorhied=()=>{
+      seterror('');
+    }
+
     return {
              user,
              error,
@@ -99,7 +103,8 @@ const useFirebase=()=>{
             emailhendal,
             passwordhendal,
             createPassworsubmitHendel,
-            LoginPassworsubmitHendel
+            LoginPassworsubmitHendel,
+            errorhied
             
     }
 }

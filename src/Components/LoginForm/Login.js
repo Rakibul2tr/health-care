@@ -7,7 +7,7 @@ import UseContext from '../../ContextApi/UseContex';
 
 const Login = () => {
     // const {googlesingin}=useFirebase();
-    const {error,googlesingin,emailhendal,passwordhendal,LoginPassworsubmitHendel}=UseContext();
+    const {error,googlesingin,emailhendal,passwordhendal,LoginPassworsubmitHendel,errorhied}=UseContext();
     const location= useLocation();
     const histry= useHistory();
     const googlehendel=()=>{
@@ -35,13 +35,15 @@ const Login = () => {
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
                 {
-                 error?<div className="w-50 bg-white rounded">
+                 error?<div onClick={errorhied} className="w-50 bg-white rounded">
+                     <button type="button" class="btn-close" aria-label="Close"></button>
                     <h4 className="p-2 text-danger">{error}</h4>
                     </div>:
                     <Button variant="primary" type="submit">
                         Submit
                     </Button>
                  }
+                 <input type="reset" value="Reset" className="btn btn-primary ms-2"></input>
              </Form><br/>
              <Link to="/signup">Create a new Acount</Link>
              <br/>
