@@ -11,6 +11,7 @@ import NotFound from './Components/NotFound/NotFound';
 import Allservice from './Components/ServicePage/Allservice';
 import ServiceDetails from './Components/ServicePage/ServiceDetails';
 import Services from './Components/ServicePage/Services';
+import Appoinment from './Components/Teams/Appoinment';
 import Teams from './Components/Teams/Teams';
 import ContextProvider from './ContextApi/ContextProvider';
 import PraivatRout from './PraivetRout/PraivatRout';
@@ -41,6 +42,9 @@ function App() {
             <Route exact path="/teams">
                 <Teams></Teams>
             </Route>
+            <PraivatRout exact path="/teams/:appoint">
+                <Appoinment></Appoinment>
+            </PraivatRout>
             <PraivatRout exact path="/service">
               <Allservice></Allservice>
             </PraivatRout>

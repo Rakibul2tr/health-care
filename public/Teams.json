@@ -6,37 +6,49 @@
             "id":1,
             "name":"Dr: Prodip Kumar",
             "spashilis":"Dantal Cap",
-            "img":"https://i.ibb.co/2qKt369/doctor1.jpg"
+            "img":"https://i.ibb.co/2qKt369/doctor1.jpg",
+            "des":"Free Business English lessons with texts, articles and exercises to practice English for work. The best way to master a new language is to practice it regularly, and the following Business English sections will help anyone interested in becoming fluent do so",
+            "number":"0124358132"
         },
         {
             "id":2,
             "name":"Dr: Rayhan Hawlader",
             "spashilis":"Dantal Hoock",
-            "img":"https://i.ibb.co/jrqFZqY/doctor2.jpg"
+            "img":"https://i.ibb.co/jrqFZqY/doctor2.jpg",
+            "des":"Free Business English lessons with texts, articles and exercises to practice English for work. The best way to master a new language is to practice it regularly, and the following Business English sections will help anyone interested in becoming fluent do so",
+            "number":"0124358132"
         },
         {
             "id":3,
             "name":"Dr: Rakibul Islam",
             "spashilis":"Dantal Bregh",
-            "img":"https://i.ibb.co/Z2fKLNF/doctor3.jpg"
+            "img":"https://i.ibb.co/Z2fKLNF/doctor3.jpg",
+            "des":"Free Business English lessons with texts, articles and exercises to practice English for work. The best way to master a new language is to practice it regularly, and the following Business English sections will help anyone interested in becoming fluent do so",
+            "number":"0124358132"
         },
         {
             "id":4,
             "name":"Dr: Rina rani",
             "spashilis":"Dantal Fuck",
-            "img":"https://i.ibb.co/tKc9k6v/doctor4.jpg"
+            "img":"https://i.ibb.co/tKc9k6v/doctor4.jpg",
+            "des":"Free Business English lessons with texts, articles and exercises to practice English for work. The best way to master a new language is to practice it regularly, and the following Business English sections will help anyone interested in becoming fluent do so",
+            "number":"0124358132"
         },
         {
             "id":5,
             "name":"Dr: Sakur beswas",
             "spashilis":"Dantal Recheck",
-            "img":"https://i.ibb.co/L9kp378/doctor5.jpg"
+            "img":"https://i.ibb.co/L9kp378/doctor5.jpg",
+            "des":"Free Business English lessons with texts, articles and exercises to practice English for work. The best way to master a new language is to practice it regularly, and the following Business English sections will help anyone interested in becoming fluent do so",
+            "number":"0124358132"
         },
         {
             "id":6,
             "name":"Dr: Taslima Rakib",
             "spashilis":"Dantal Drill",
-            "img":"https://i.ibb.co/gmHmFPN/dactor6.jpg"
+            "img":"https://i.ibb.co/gmHmFPN/dactor6.jpg",
+            "des":"Free Business English lessons with texts, articles and exercises to practice English for work. The best way to master a new language is to practice it regularly, and the following Business English sections will help anyone interested in becoming fluent do so",
+            "number":"0124358132"
         }
     ]
 }

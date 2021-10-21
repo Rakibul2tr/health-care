@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useFackdata from '../../Hoocks/useFackdata';
 import './Teams.css';
 
@@ -12,13 +13,14 @@ const Teams = () => {
             <div className="row">
                 {
                     Teams.map(team=><div className="col-md-4 " key={team.id}>
-                        <div className="card position-relative mb-2 doctorcard">
+                        <div  className="card position-relative mb-2 doctorcard">
                         <div className="teamImage">
                             <img className="" src={team.img} alt="" />
                         </div>
                         <div className="teamName">
-                            <h6>{team.name}</h6>
-                            <p>{team.spashilis}</p>
+                        <Link className="py-1 px-2 bg-secondary rounded text-white" to={`/teams/${team.id}`}>Appoinment</Link><br/>
+                            <span>{team.name},</span>
+                            <span>{team.spashilis}</span>
                         </div>
                         </div>
                     </div>)

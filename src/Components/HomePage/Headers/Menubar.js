@@ -13,7 +13,7 @@ const Menubar = () => {
     return (
      <div className="headerbg border-bottom border-success">
         <div className="container">
-            <Navbar collapseOnSelect expand="lg" bg="" variant="secondary">
+            <Navbar collapseOnSelect expand="lg" bg="" variant="secondary" >
                 <Container>
                 <Navbar.Brand href="#home" className="logo d-flex justify-content-start">
                     <img className="w-25" src={logo} alt="" />
